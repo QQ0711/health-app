@@ -1,4 +1,4 @@
-# Health Management APP
+# Health Management Application
 ## APP 簡介
 * 此APP為使用Android Studio以及Kotlin程式語言所撰寫而成。
 * 使用者可以使用此APP紀錄每日的飲食和運動狀況，並且查看身體健康指標，
