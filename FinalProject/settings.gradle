@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //(調用功能表檔 - >將專案與 Gradle 檔案同步。)
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "Final Project"
+include ':app'

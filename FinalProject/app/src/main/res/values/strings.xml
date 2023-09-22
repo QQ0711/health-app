@@ -1,0 +1,829 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string-array name="kind_photo">
+        <item>@drawable/kind_1</item>
+        <item>@drawable/kind_2</item>
+        <item>@drawable/kind_3</item>
+        <item>@drawable/kind_4</item>
+        <item>@drawable/kind_5</item>
+        <item>@drawable/kind_6</item>
+        <item>@drawable/kind_7</item>
+        <item>@drawable/kind_8</item>
+    </string-array>
+
+    <string-array name="kind_list">
+        <item>"主食"</item>
+        <item>"蔬菜"</item>
+        <item>"水果"</item>
+        <item>"肉類"</item>
+        <item>"豆蛋奶"</item>
+        <item>"油脂類"</item>
+        <item>"調味料"</item>
+        <item>"飲品"</item>
+    </string-array>
+
+    <string-array name="list_1">
+        <item>"米飯"</item>
+        <item>"水煮麵條"</item>
+        <item>"麥片"</item>
+        <item>"地瓜"</item>
+        <item>"鷹嘴豆"</item>
+        <item>"義大利麵"</item>
+        <item>"饅頭"</item>
+        <item>"玉米"</item>
+    </string-array>
+
+    <string-array name="list_2">
+        <item>"番茄"</item>
+        <item>"花椰菜"</item>
+        <item>"大白菜"</item>
+        <item>"高麗菜"</item>
+        <item>"洋蔥"</item>
+        <item>"韭菜"</item>
+        <item>"胡蘿蔔"</item>
+        <item>"秋葵"</item>
+    </string-array>
+
+    <string-array name="list_3">
+        <item>"蘋果"</item>
+        <item>"香蕉"</item>
+        <item>"橘子"</item>
+        <item>"奇異果"</item>
+        <item>"水梨"</item>
+        <item>"芒果"</item>
+        <item>"芭樂"</item>
+        <item>"鳳梨"</item>
+    </string-array>
+
+    <string-array name="list_4">
+        <item>"豬肉"</item>
+        <item>"雞肉"</item>
+        <item>"鮭魚"</item>
+        <item>"鱸魚"</item>
+        <item>"蛤蠣"</item>
+        <item>"草蝦"</item>
+        <item>"羊肉"</item>
+        <item>"牛肉"</item>
+    </string-array>
+
+    <string-array name="list_5">
+        <item>"水煮雞蛋"</item>
+        <item>"鹹鴨蛋"</item>
+        <item>"起司"</item>
+        <item>"優格"</item>
+        <item>"豆腐"</item>
+        <item>"豆皮"</item>
+        <item>"毛豆"</item>
+        <item>"黑豆"</item>
+    </string-array>
+
+    <string-array name="list_6">
+        <item>"橄欖油"</item>
+        <item>"菜籽油"</item>
+        <item>"芝麻油"</item>
+        <item>"奶油"</item>
+        <item>"核桃"</item>
+        <item>"開心果"</item>
+        <item>"花生"</item>
+        <item>"葵花子"</item>
+    </string-array>
+
+    <string-array name="list_7">
+        <item>"醬油"</item>
+        <item>"糖"</item>
+        <item>"醋"</item>
+        <item>"鹽"</item>
+        <item>"蜂蜜"</item>
+        <item>"辣椒醬"</item>
+        <item>"番茄醬"</item>
+        <item>"沙拉醬"</item>
+    </string-array>
+
+    <string-array name="list_8">
+        <item>"水"</item>
+        <item>"可樂"</item>
+        <item>"啤酒"</item>
+        <item>"黑咖啡粉"</item>
+        <item>"無糖茶"</item>
+        <item>"養樂多"</item>
+        <item>"可可粉"</item>
+        <item>"寶礦力水得"</item>
+    </string-array>
+
+    <string-array name="photo_list_1">
+        <item>@drawable/food_1</item>
+        <item>@drawable/food_2</item>
+        <item>@drawable/food_3</item>
+        <item>@drawable/food_4</item>
+        <item>@drawable/food_5</item>
+        <item>@drawable/food_6</item>
+        <item>@drawable/food_7</item>
+        <item>@drawable/food_8</item>
+    </string-array>
+
+    <string-array name="photo_list_2">
+        <item>@drawable/food_9</item>
+        <item>@drawable/food_10</item>
+        <item>@drawable/food_11</item>
+        <item>@drawable/food_12</item>
+        <item>@drawable/food_13</item>
+        <item>@drawable/food_14</item>
+        <item>@drawable/food_15</item>
+        <item>@drawable/food_16</item>
+    </string-array>
+
+    <string-array name="photo_list_3">
+        <item>@drawable/food_17</item>
+        <item>@drawable/food_18</item>
+        <item>@drawable/food_19</item>
+        <item>@drawable/food_20</item>
+        <item>@drawable/food_21</item>
+        <item>@drawable/food_22</item>
+        <item>@drawable/food_23</item>
+        <item>@drawable/food_24</item>
+    </string-array>
+
+    <string-array name="photo_list_4">
+        <item>@drawable/food_25</item>
+        <item>@drawable/food_26</item>
+        <item>@drawable/food_27</item>
+        <item>@drawable/food_28</item>
+        <item>@drawable/food_29</item>
+        <item>@drawable/food_30</item>
+        <item>@drawable/food_31</item>
+        <item>@drawable/food_32</item>
+    </string-array>
+
+    <string-array name="photo_list_5">
+        <item>@drawable/food_33</item>
+        <item>@drawable/food_34</item>
+        <item>@drawable/food_35</item>
+        <item>@drawable/food_36</item>
+        <item>@drawable/food_37</item>
+        <item>@drawable/food_38</item>
+        <item>@drawable/food_39</item>
+        <item>@drawable/food_40</item>
+    </string-array>
+
+    <string-array name="photo_list_6">
+        <item>@drawable/food_41</item>
+        <item>@drawable/food_42</item>
+        <item>@drawable/food_43</item>
+        <item>@drawable/food_44</item>
+        <item>@drawable/food_45</item>
+        <item>@drawable/food_46</item>
+        <item>@drawable/food_47</item>
+        <item>@drawable/food_48</item>
+    </string-array>
+
+    <string-array name="photo_list_7">
+        <item>@drawable/food_49</item>
+        <item>@drawable/food_50</item>
+        <item>@drawable/food_51</item>
+        <item>@drawable/food_52</item>
+        <item>@drawable/food_53</item>
+        <item>@drawable/food_54</item>
+        <item>@drawable/food_55</item>
+        <item>@drawable/food_56</item>
+    </string-array>
+
+    <string-array name="photo_list_8">
+        <item>@drawable/food_57</item>
+        <item>@drawable/food_58</item>
+        <item>@drawable/food_59</item>
+        <item>@drawable/food_60</item>
+        <item>@drawable/food_61</item>
+        <item>@drawable/food_62</item>
+        <item>@drawable/food_63</item>
+        <item>@drawable/food_64</item>
+    </string-array>
+
+
+    <string-array name="food_0_0">
+        <item>"米飯"</item>
+        <item>116.0</item>
+        <item>116.0</item>
+        <item>25.9</item>
+        <item>0.3</item>
+        <item>2.6</item>
+        <item>0.3</item>
+    </string-array>
+    <string-array name="food_0_1">
+        <item>"水煮麵條"</item>
+        <item>107.0</item>
+        <item>22.8</item>
+        <item>0.4</item>
+        <item>3.9</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_0_2">
+        <item>"麥片"</item>
+        <item>368.0</item>
+        <item>67.3</item>
+        <item>7.4</item>
+        <item>12.4</item>
+        <item>8.6</item>
+    </string-array>
+    <string-array name="food_0_3">
+        <item>"地瓜"</item>
+        <item>86.0</item>
+        <item>20.12</item>
+        <item>0.1</item>
+        <item>1.57</item>
+        <item>3.0</item>
+    </string-array>
+    <string-array name="food_0_4">
+        <item>"鷹嘴豆"</item>
+        <item>340.0</item>
+        <item>20.12</item>
+        <item>0.1</item>
+        <item>1.57</item>
+        <item>3.0</item>
+    </string-array>
+    <string-array name="food_0_5">
+        <item>"義大利麵"</item>
+        <item>361.0</item>
+        <item>71.6</item>
+        <item>1.3</item>
+        <item>13.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_0_6">
+        <item>"饅頭"</item>
+        <item>223.0</item>
+        <item>47.0</item>
+        <item>1.1</item>
+        <item>7.0</item>
+        <item>1.3</item>
+    </string-array>
+    <string-array name="food_0_7">
+        <item>"玉米"</item>
+        <item>112.0</item>
+        <item>22.8</item>
+        <item>1.2</item>
+        <item>4.0</item>
+        <item>2.9</item>
+    </string-array>
+
+
+    <string-array name="food_1_0">
+        <item>"番茄"</item>
+        <item>15.0</item>
+        <item>3.3</item>
+        <item>0.2</item>
+        <item>0.9</item>
+        <item>8.6</item>
+    </string-array>
+    <string-array name="food_1_1">
+        <item>"花椰菜"</item>
+        <item>27.0</item>
+        <item>3.7</item>
+        <item>0.6</item>
+        <item>3.5</item>
+        <item>2.6</item>
+    </string-array>
+    <string-array name="food_1_2">
+        <item>"大白菜"</item>
+        <item>20.0</item>
+        <item>3.4</item>
+        <item>0.2</item>
+        <item>1.6</item>
+        <item>0.9</item>
+    </string-array>
+    <string-array name="food_1_3">
+        <item>"高麗菜"</item>
+        <item>24.0</item>
+        <item>4.6</item>
+        <item>0.2</item>
+        <item>1.5</item>
+        <item>1.0</item>
+    </string-array>
+    <string-array name="food_1_4">
+        <item>"洋蔥"</item>
+        <item>40.0</item>
+        <item>9.0</item>
+        <item>0.2</item>
+        <item>1.1</item>
+        <item>0.9</item>
+    </string-array>
+    <string-array name="food_1_5">
+        <item>"韭菜"</item>
+        <item>25.0</item>
+        <item>4.5</item>
+        <item>0.4</item>
+        <item>2.4</item>
+        <item>2.4</item>
+    </string-array>
+    <string-array name="food_1_6">
+        <item>"胡蘿蔔"</item>
+        <item>39.0</item>
+        <item>8.8</item>
+        <item>0.2</item>
+        <item>1.0</item>
+        <item>1.1</item>
+    </string-array>
+    <string-array name="food_1_7">
+        <item>"秋葵"</item>
+        <item>25.0</item>
+        <item>6.2</item>
+        <item>0.2</item>
+        <item>1.8</item>
+        <item>1.8</item>
+    </string-array>
+
+
+    <string-array name="food_2_0">
+        <item>"蘋果"</item>
+        <item>53.0</item>
+        <item>13.7</item>
+        <item>0.2</item>
+        <item>0.4</item>
+        <item>1.7</item>
+    </string-array>
+    <string-array name="food_2_1">
+        <item>"香蕉"</item>
+        <item>93.0</item>
+        <item>22.0</item>
+        <item>0.2</item>
+        <item>1.4</item>
+        <item>1.2</item>
+    </string-array>
+    <string-array name="food_2_2">
+        <item>"橘子"</item>
+        <item>44.0</item>
+        <item>10.2</item>
+        <item>0.1</item>
+        <item>0.8</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="food_2_3">
+        <item>"奇異果"</item>
+        <item>61.0</item>
+        <item>14.5</item>
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>2.6</item>
+    </string-array>
+    <string-array name="food_2_4">
+        <item>"水梨"</item>
+        <item>51.0</item>
+        <item>13.1</item>
+        <item>0.1</item>
+        <item>0.3</item>
+        <item>2.6</item>
+    </string-array>
+    <string-array name="food_2_5">
+        <item>"芒果"</item>
+        <item>35.0</item>
+        <item>8.3</item>
+        <item>0.2</item>
+        <item>0.6</item>
+        <item>1.3</item>
+    </string-array>
+    <string-array name="food_2_6">
+        <item>"芭樂"</item>
+        <item>53.0</item>
+        <item>14.2</item>
+        <item>0.4</item>
+        <item>1.1</item>
+        <item>5.9</item>
+    </string-array>
+    <string-array name="food_2_7">
+        <item>"鳳梨"</item>
+        <item>44.0</item>
+        <item>10.8</item>
+        <item>0.1</item>
+        <item>0.5</item>
+        <item>1.3</item>
+    </string-array>
+
+
+    <string-array name="food_3_0">
+        <item>"豬肉"</item>
+        <item>395.0</item>
+        <item>2.4</item>
+        <item>37.0</item>
+        <item>13.2</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_1">
+        <item>"雞肉"</item>
+        <item>167.0</item>
+        <item>1.3</item>
+        <item>9.4</item>
+        <item>19.3</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_2">
+        <item>"鮭魚"</item>
+        <item>139.0</item>
+        <item>0.0</item>
+        <item>7.8</item>
+        <item>17.2</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_3">
+        <item>"鱸魚"</item>
+        <item>105.0</item>
+        <item>0.0</item>
+        <item>3.4</item>
+        <item>18.6</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_4">
+        <item>"蛤蠣"</item>
+        <item>45.0</item>
+        <item>2.2</item>
+        <item>0.6</item>
+        <item>7.7</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_5">
+        <item>"草蝦"</item>
+        <item>101.0</item>
+        <item>3.9</item>
+        <item>1.4</item>
+        <item>18.2</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_6">
+        <item>"羊肉"</item>
+        <item>203.0</item>
+        <item>0.0</item>
+        <item>14.1</item>
+        <item>19.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_3_7">
+        <item>"牛肉"</item>
+        <item>123.0</item>
+        <item>0.0</item>
+        <item>5.4</item>
+        <item>18.6</item>
+        <item>0.0</item>
+    </string-array>
+
+
+    <string-array name="food_4_0">
+        <item>"水煮雞蛋"</item>
+        <item>139.0</item>
+        <item>2.4</item>
+        <item>8.6</item>
+        <item>13.1</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_4_1">
+        <item>"鹹鴨蛋"</item>
+        <item>190.0</item>
+        <item>6.3</item>
+        <item>12.7</item>
+        <item>12.7</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_4_2">
+        <item>"起司"</item>
+        <item>328.0</item>
+        <item>3.5</item>
+        <item>23.5</item>
+        <item>25.7</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_4_3">
+        <item>"優格"</item>
+        <item>98.0</item>
+        <item>12.0</item>
+        <item>4.0</item>
+        <item>3.3</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_4_4">
+        <item>"豆腐"</item>
+        <item>84.0</item>
+        <item>3.4</item>
+        <item>5.3</item>
+        <item>6.6</item>
+        <item>3.0</item>
+    </string-array>
+    <string-array name="food_4_5">
+        <item>"豆皮"</item>
+        <item>447.0</item>
+        <item>12.5</item>
+        <item>23.0</item>
+        <item>51.6</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_4_6">
+        <item>"毛豆"</item>
+        <item>131.0</item>
+        <item>10.5</item>
+        <item>5.0</item>
+        <item>13.1</item>
+        <item>4.0</item>
+    </string-array>
+    <string-array name="food_4_7">
+        <item>"黑豆"</item>
+        <item>401.0</item>
+        <item>33.6</item>
+        <item>15.9</item>
+        <item>36.0</item>
+        <item>10.2</item>
+    </string-array>
+
+
+    <string-array name="food_5_0">
+        <item>"橄欖油"</item>
+        <item>899.0</item>
+        <item>0.0</item>
+        <item>99.9</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_5_1">
+        <item>"菜籽油"</item>
+        <item>899.0</item>
+        <item>0.0</item>
+        <item>99.9</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_5_2">
+        <item>"芝麻油"</item>
+        <item>898.0</item>
+        <item>0.2</item>
+        <item>99.7</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_5_3">
+        <item>"奶油"</item>
+        <item>888.0</item>
+        <item>0.0</item>
+        <item>98.0</item>
+        <item>1.4</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_5_4">
+        <item>"核桃"</item>
+        <item>646.0</item>
+        <item>19.1</item>
+        <item>58.8</item>
+        <item>14.9</item>
+        <item>9.5</item>
+    </string-array>
+    <string-array name="food_5_5">
+        <item>"開心果"</item>
+        <item>631.0</item>
+        <item>21.9</item>
+        <item>53.0</item>
+        <item>20.6</item>
+        <item>8.2</item>
+    </string-array>
+    <string-array name="food_5_6">
+        <item>"花生"</item>
+        <item>313.0</item>
+        <item>13.0</item>
+        <item>25.4</item>
+        <item>12.0</item>
+        <item>7.7</item>
+    </string-array>
+    <string-array name="food_5_7">
+        <item>"葵花子"</item>
+        <item>620.0</item>
+        <item>17.9</item>
+        <item>54.1</item>
+        <item>22.7</item>
+        <item>14.6</item>
+    </string-array>
+
+    <string-array name="food_6_0">
+        <item>"醬油"</item>
+        <item>63.0</item>
+        <item>10.1</item>
+        <item>0.1</item>
+        <item>5.6</item>
+        <item>0.2</item>
+    </string-array>
+    <string-array name="food_6_1">
+        <item>"糖"</item>
+        <item>400.0</item>
+        <item>99.9</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_6_2">
+        <item>"醋"</item>
+        <item>31.0</item>
+        <item>4.9</item>
+        <item>0.3</item>
+        <item>2.1</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_6_3">
+        <item>"鹽"</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_6_4">
+        <item>"蜂蜜"</item>
+        <item>321.0</item>
+        <item>75.6</item>
+        <item>1.9</item>
+        <item>0.4</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_6_5">
+        <item>"辣椒醬"</item>
+        <item>36.0</item>
+        <item>3.2</item>
+        <item>2.8</item>
+        <item>0.8</item>
+        <item>2.6</item>
+    </string-array>
+    <string-array name="food_6_6">
+        <item>"番茄醬"</item>
+        <item>83.0</item>
+        <item>16.9</item>
+        <item>0.2</item>
+        <item>4.9</item>
+        <item>2.1</item>
+    </string-array>
+    <string-array name="food_6_7">
+        <item>"沙拉醬"</item>
+        <item>724.0</item>
+        <item>1.0</item>
+        <item>78.8</item>
+        <item>2.8</item>
+        <item>0.0</item>
+    </string-array>
+
+
+    <string-array name="food_7_0">
+        <item>"水"</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_1">
+        <item>"可樂"</item>
+        <item>43.0</item>
+        <item>10.6</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_2">
+        <item>"啤酒"</item>
+        <item>43.0</item>
+        <item>3.55</item>
+        <item>0.0</item>
+        <item>0.46</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_3">
+        <item>"黑咖啡粉"</item>
+        <item>340.0</item>
+        <item>60.2</item>
+        <item>1.2</item>
+        <item>20.8</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_4">
+        <item>"無糖茶"</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_5">
+        <item>"養樂多"</item>
+        <item>69.0</item>
+        <item>15.7</item>
+        <item>0.0</item>
+        <item>1.2</item>
+        <item>0.0</item>
+    </string-array>
+    <string-array name="food_7_6">
+        <item>"可可粉"</item>
+        <item>349.0</item>
+        <item>54.5</item>
+        <item>8.4</item>
+        <item>20.9</item>
+        <item>14.3</item>
+    </string-array>
+    <string-array name="food_7_7">
+        <item>"寶礦力水得"</item>
+        <item>27.0</item>
+        <item>6.5</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </string-array>
+
+    <string-array name="health_url_list">
+        <item>"https://www.youtube.com/embed/mq2A9IH6w4w"</item>
+        <item>"https://www.youtube.com/embed/gPAJNSW0g1I"</item>
+        <item>"https://www.youtube.com/embed/T6EiQ_Rtmnk"</item>
+        <item>"https://www.youtube.com/embed/n_LCq_H5rWM"</item>
+        <item>"https://www.youtube.com/embed/VCvjS5V8UiU"</item>
+        <item>"https://www.youtube.com/embed/CUEpQ4gq8EQ"</item>
+        <item>"https://www.youtube.com/embed/XGj-GlFGnSs"</item>
+        <item>"https://www.youtube.com/embed/lodFafwSGak"</item>
+        <item>"https://www.youtube.com/embed/N957ACQ1BvQ"</item>
+        <item>"https://www.youtube.com/embed/2xGCXUu_u2I"</item>
+        <item>"https://www.youtube.com/embed/p7K_BmSwntA"</item>
+        <item>"https://www.youtube.com/embed/x5onxyMCdBE"</item>
+        <item>"https://www.youtube.com/embed/P0pArZND9PM"</item>
+        <item>"https://www.youtube.com/embed/1yFu10uvW-8"</item>
+        <item>"https://www.youtube.com/embed/PEzznrT0p9c"</item>
+        <item>"https://www.youtube.com/embed/19LPQ2vBlgE"</item>
+        <item>"https://www.youtube.com/embed/JjfaIyqCk9c"</item>
+        <item>"https://www.youtube.com/embed/63bZIYzn4nY"</item>
+        <item>"https://www.youtube.com/embed/HpV8xfnRMzQ"</item>
+        <item>"https://www.youtube.com/embed/FMcqGdcV1LA"</item>
+        <item>"https://www.youtube.com/embed/NUsGNT6dHW4"</item>
+        <item>"https://www.youtube.com/embed/y68wlo6dWM0"</item>
+        <item>"https://www.youtube.com/embed/1df4EmV1AxI"</item>
+        <item>"https://www.youtube.com/embed/6CXmOlIyapQ"</item>
+        <item>"https://www.youtube.com/embed/kEl1FIkRoko"</item>
+        <item>"https://www.youtube.com/embed/7D8zS8SX1p8"</item>
+        <item>"https://www.youtube.com/embed/F7oMolabG5g"</item>
+        <item>"https://www.youtube.com/embed/yB4_Rk72lS0"</item>
+        <item>"https://www.youtube.com/embed/fAotuKZOCfs"</item>
+        <item>"https://www.youtube.com/embed/pIwnj3fn6P8"</item>
+    </string-array>
+
+    <string-array name="fat_url_list">
+        <item>"https://www.youtube.com/embed/jG1vbLaannI"</item>
+        <item>"https://www.youtube.com/embed/6bUDAJ0Avc8"</item>
+        <item>"https://www.youtube.com/embed/8fybyQSy0RE"</item>
+        <item>"https://www.youtube.com/embed/miTmaOixkBU"</item>
+        <item>"https://www.youtube.com/embed/v4Ty_H5bMiE"</item>
+        <item>"https://www.youtube.com/embed/cMlkde7CO6Q"</item>
+        <item>"https://www.youtube.com/embed/qbG5hm7laew"</item>
+        <item>"https://www.youtube.com/embed/ph182nJvHC8"</item>
+        <item>"https://www.youtube.com/embed/zIxf2nSY1Go"</item>
+        <item>"https://www.youtube.com/embed/qYhGqNZUrVQ"</item>
+        <item>"https://www.youtube.com/embed/_GZb8nwf7QY"</item>
+        <item>"https://www.youtube.com/embed/BnqnAkxW8QQ"</item>
+        <item>"https://www.youtube.com/embed/rEoANykGkGI"</item>
+        <item>"https://www.youtube.com/embed/4XXXQmxuh1I"</item>
+        <item>"https://www.youtube.com/embed/tYT7Nlj_IFU"</item>
+        <item>"https://www.youtube.com/embed/lswWuexrrGA"</item>
+        <item>"https://www.youtube.com/embed/OpEBh4bssu0"</item>
+        <item>"https://www.youtube.com/embed/VKjoT-k0Zew"</item>
+        <item>"https://www.youtube.com/embed/tRS7QgvIRVk"</item>
+        <item>"https://www.youtube.com/embed/x7q5D8tlwfU"</item>
+        <item>"https://www.youtube.com/embed/XQFIsJioMGc"</item>
+        <item>"https://www.youtube.com/embed/oJW6NNh83H4"</item>
+        <item>"https://www.youtube.com/embed/VmQNN7oO4-8"</item>
+        <item>"https://www.youtube.com/embed/YQO4AF2eVeA"</item>
+        <item>"https://www.youtube.com/embed/zDdDlVx9zoQ"</item>
+        <item>"https://www.youtube.com/embed/IC3HJX-mSZg"</item>
+        <item>"https://www.youtube.com/embed/6y3t0hxbn2M"</item>
+        <item>"https://www.youtube.com/embed/oxCGOH-W4j0"</item>
+        <item>"https://www.youtube.com/embed/H32EyX4LRig"</item>
+        <item>"https://www.youtube.com/embed/r_sTmRrfVDo"</item>
+    </string-array>
+
+    <string-array name="muscle_url_list">
+        <item>"https://www.youtube.com/embed/xigHvLf4A_4"</item>
+        <item>"https://www.youtube.com/embed/wv8nJDHA5mA"</item>
+        <item>"https://www.youtube.com/embed/eSw7GGEuFy0"</item>
+        <item>"https://www.youtube.com/embed/47RlYiVVuio"</item>
+        <item>"https://www.youtube.com/embed/Rxuw310tkx4"</item>
+        <item>"https://www.youtube.com/embed/G5zBIkKMVE8"</item>
+        <item>"https://www.youtube.com/embed/TSN738gKhyA"</item>
+        <item>"https://www.youtube.com/embed/R972_mPV29Y"</item>
+        <item>"https://www.youtube.com/embed/N2X-qS3QkzI"</item>
+        <item>"https://www.youtube.com/embed/0Cu_-_S6vZk"</item>
+        <item>"https://www.youtube.com/embed/uPdcOQxhVzg"</item>
+        <item>"https://www.youtube.com/embed/1y88N6t32Oc"</item>
+        <item>"https://www.youtube.com/embed/ey5kDyvHXYI"</item>
+        <item>"https://www.youtube.com/embed/K3xmk_AMvLY"</item>
+        <item>"https://www.youtube.com/embed/4CPNOjRJ4aU"</item>
+        <item>"https://www.youtube.com/embed/gKaLNxyeSKY"</item>
+        <item>"https://www.youtube.com/embed/WXzdQXYKB-0"</item>
+        <item>"https://www.youtube.com/embed/zioaCr82DqA"</item>
+        <item>"https://www.youtube.com/embed/M1PLU-M3K4Y"</item>
+        <item>"https://www.youtube.com/embed/_gB1sw7scnE"</item>
+        <item>"https://www.youtube.com/embed/M1PLU-M3K4Y"</item>
+        <item>"https://www.youtube.com/embed/FZXFDdiOiR4"</item>
+        <item>"https://www.youtube.com/embed/9pSB4Uoc6gs"</item>
+        <item>"https://www.youtube.com/embed/9ORlUAMPMFo"</item>
+        <item>"https://www.youtube.com/embed/19fttY0DkVI"</item>
+        <item>"https://www.youtube.com/embed/11SQe9EmrqQ"</item>
+        <item>"https://www.youtube.com/embed/R972_mPV29Y"</item>
+        <item>"https://www.youtube.com/embed/WdcP-AfKncs"</item>
+        <item>"https://www.youtube.com/embed/gM6UnDjJ8jw"</item>
+        <item>"https://www.youtube.com/embed/b95fejNvDXw"</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

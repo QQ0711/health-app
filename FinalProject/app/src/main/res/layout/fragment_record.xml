@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/eat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XX的飲食建議："
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/blue5"
+        android:textSize="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/eat_title_total"/>
+
+    <LinearLayout
+        android:id="@+id/eat_title_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eat_title_total">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="碳水："
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_eat_1"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="克"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/eat_title_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eat_title_1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="脂肪："
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_eat_2"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="克"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eat_title_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eat_title_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="蛋白質："
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_eat_3"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="克"
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/eat_title_total"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eat_title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="總攝取熱量："
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_eat_total"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="大卡"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue5"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintTop_toBottomOf="@+id/eat_title_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/gray5">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="年齡："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="歲"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/height"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/age">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身高："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="公分(cm)"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="體重："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="公斤 (kg)"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sex"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/weight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="生理性別："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/goal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sex">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="健身目標："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_goal"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bmi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/goal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身體質量指數(BMI)："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_bmi"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="00.00"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/bmi_result"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="體重狀況"
+                    android:gravity="center"
+                    android:textColor="@color/green4"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fatr"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bmi">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="體脂肪率(FATR)："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_fatr"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="00.00"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/fatr_result"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="體脂狀況"
+                    android:gravity="center"
+                    android:textColor="@color/green4"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bmr"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fatr">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="基礎代謝率(BMR)："
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_bmr"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:text="0000.0"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:text="大卡"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tdee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="日總熱量消耗(TDEE)："
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="@id/bmr"
+                app:layout_constraintTop_toBottomOf="@id/bmr"/>
+
+            <TableLayout
+                android:id="@+id/tdee_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue9"
+                app:layout_constraintStart_toStartOf="@id/tdee"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tdee">
+
+                <TableRow >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="幾乎不運動: "
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tdee1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="0000.0"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="大卡"
+                        android:gravity="center"
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="每週運動1~3天: "
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tdee2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="0000.0"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="大卡"
+                        android:gravity="center"
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="每週運動3~5天: "
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tdee3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="0000.0"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="大卡"
+                        android:gravity="center"
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="每週運動6~7天: "
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tdee4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="0000.0"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="大卡"
+                        android:gravity="center"
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="長時間運動: "
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tdee5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="0000.0"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="大卡"
+                        android:gravity="center"
+                        android:textColor="@color/blue5"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                </TableRow>
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
